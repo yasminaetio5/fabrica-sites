@@ -1,10 +1,67 @@
-body{
-    background-color: cornflowerblue;
-width: 20%;
-justify-content: center;
-align-items: center;
+body {
+    text-align: center;
 
+    padding: 2rem;
+    min-height: 100vh;
+   background-image: url(/animais.png);
+   background-repeat: no-repeat;
+    background-size: cover;
 }
-.button{
-  background-color: aquamarine;
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  background: #ffffff; 
+}
+h1 {
+  text-align: center;
+  color: #d67a38;
+  margin-bottom: 10px;
+}
+fieldset {
+  border: 2px solid #d67a38;
+  border-radius: 10px;
+  padding: 20px;
+}
+legend {
+  font-weight: bold;
+  color: #d67a38;
+  padding: 0 6px;
+}
+
+input, select, textarea {
+  width: 50%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #d67a38;
+  box-shadow: 0 0 6px rgba(214,122,56,0.4);
+  outline: none;
+}
+
+button {
+  width: 10%;
+  padding: 14px;
+  background: #d67a38;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #bf692f;
 }

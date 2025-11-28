@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(246, 181, 84)
+     0%, #ffffff 98%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.iagem{
+    width: 250px;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333; 
+}
+
+.logo span {
+    color: #f4953d; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFA500; 
+}
+
+
+.btn-laranja {
+    background-color: #FFA500;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #f0763d; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    width: 100%; 
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 90%;
+    margin: 0 auto; 
+}
